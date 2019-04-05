@@ -9,6 +9,7 @@ import { SideAdsComponent } from './components/shared/side-ads/side-ads.componen
 import { BlockAdsComponent } from './components/shared/block-ads/block-ads.component';
 import { SideNavComponent } from './components/shared/side-nav/side-nav.component';
 import { NavComponent } from './components/shared/nav/nav.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NavComponent } from './components/shared/nav/nav.component';
     SideAdsComponent,
     BlockAdsComponent,
     SideNavComponent,
-    NavComponent
+    NavComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

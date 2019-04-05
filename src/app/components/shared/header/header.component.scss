@@ -1,0 +1,30 @@
+.cb_header{
+    display: flex;
+    flex-basis: 100%;
+    box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 6px rgba(59,64,69,0.1);
+    justify-content: space-evenly;
+    .cb_header_logo{
+        max-height: 50px;
+        align-self: center;
+    }
+
+    .cb_search_container{
+        flex-basis: 70%;
+        align-self: center;
+    }
+
+    .placeholder{
+        flex-basis: fill;
+        align-self: center;
+    }
+}
+
+//TODO separar em um arquivo de componente padrao
+
+.cb_input {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #000;
+}

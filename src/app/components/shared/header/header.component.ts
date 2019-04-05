@@ -9,7 +9,13 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
+  nav: Array<string>;
   ngOnInit() {
+    this.nav = [
+      "home",
+      "contato",
+      "x"
+    ]
   }
 
 }
