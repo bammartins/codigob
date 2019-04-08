@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SideNavComponent implements OnInit {
 
-  constructor() { }
+  nav: any;
+  constructor() { 
+    this.nav = document.getElementsByClassName('page');
+  }
 
   ngOnInit() {
   }
 
+  expandMenu() {
+    this.nav[0].classList.add('navExpanded');
+  }
+
+  collapseMenu() {
+    this.nav[0].classList.remove('navExpanded');
+  }
 }

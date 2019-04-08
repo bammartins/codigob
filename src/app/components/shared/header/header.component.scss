@@ -1,8 +1,9 @@
 .cb_header{
     display: flex;
     flex-basis: 100%;
-    box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 6px rgba(59,64,69,0.1);
+    // box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 6px rgba(59,64,69,0.1);
     justify-content: space-evenly;
+    background: #FAFAFA;
     .cb_header_logo{
         max-height: 50px;
         align-self: center;
